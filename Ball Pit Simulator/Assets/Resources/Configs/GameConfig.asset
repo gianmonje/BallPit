@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf736351e7f2a34284a28bd73cd5e4a, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  poolSize: 200
+  ballSize: 0.4
+  playerWeight: 100
+  spawnArea: {x: 6.6, y: 1.64, z: 6.6}
+  ballPrefabReference:
+    m_AssetGUID: 6f528165eed5ccf47a50802ddb6bdd6d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  ballColorMaterials:
+  - {fileID: 2100000, guid: 75aa1149df6cc9f4791bfa316cd9a077, type: 2}
+  - {fileID: 2100000, guid: c0c73f0676d49e0459646189bf3ed45a, type: 2}
+  - {fileID: 2100000, guid: 6bf82e748b71b864884b99e97980a872, type: 2}
+  - {fileID: 2100000, guid: 5d5b306037c021a47b613a97664485af, type: 2}
+  - {fileID: 2100000, guid: 453932908beefa044a3e0e20d9042cfc, type: 2}
+  - {fileID: 2100000, guid: ac34d2ead674cd6409897e2cd522b38f, type: 2}
